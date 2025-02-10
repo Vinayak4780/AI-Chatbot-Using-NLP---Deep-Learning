@@ -1,0 +1,144 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Hello", "Howdy", "What's up", "Greetings"],
+            "responses": ["Hello!", "Hey there!", "Hi, how can I help?", "Greetings! How can I assist you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Take care"],
+            "responses": ["Goodbye!", "See you later!", "Take care!", "Have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Much appreciated"],
+            "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad I could help!"]
+        },
+        {
+            "tag": "affirmation",
+            "patterns": ["Yes", "Sure", "Absolutely", "Of course", "Definitely"],
+            "responses": ["Great!", "Good to know!", "Okay!", "Understood!"]
+        },
+        {
+            "tag": "denial",
+            "patterns": ["No", "Not really", "Nope", "I don't think so", "Nah"],
+            "responses": ["Alright.", "No problem!", "Okay, let me know if you need anything."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "How's the weather?", "Is it going to rain?", "Weather update"],
+            "responses": ["The weather is great!", "It's sunny today!", "Expect some rain today.", "It's cloudy."]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?", "Time now"],
+            "responses": ["It's 3 PM.", "The time is 9:30 AM.", "It's noon.", "Right now it's 7:45 PM."]
+        },
+        {
+            "tag": "date",
+            "patterns": ["What's the date today?", "Today's date?", "What day is it?", "Date today"],
+            "responses": ["Today is September 2nd.", "It's Monday, September 2nd.", "The date is September 2nd, 2024."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What's your age?", "When were you created?", "Your age?"],
+            "responses": ["I was created in 2024!", "I'm quite young, just a few months old.", "Age is just a number!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What's your name?", "Who are you?", "Can you tell me your name?", "Your name?"],
+            "responses": ["I'm ChatGPT!", "You can call me ChatGPT.", "I'm your AI assistant, ChatGPT."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Say something funny", "I want to hear a joke"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need assistance", "Can you assist?", "I need help"],
+            "responses": ["Of course! What do you need help with?", "I'm here to help. What's the issue?", "Sure, what do you need assistance with?"]
+        },
+        {
+            "tag": "food",
+            "patterns": ["I'm hungry", "What's for dinner?", "Suggest a restaurant", "Any food ideas?"],
+            "responses": ["How about some pizza?", "You should try a local sushi place!", "How about a burger?", "Pasta is always a good idea."]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["What do you like to do?", "Any hobbies?", "What are your interests?", "Your favorite activities?"],
+            "responses": ["I love chatting with people!", "Learning new things is my favorite!", "Helping people is what I do best!"]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Do you like sports?", "What's your favorite sport?", "Do you play sports?", "Any sports updates?"],
+            "responses": ["I enjoy learning about all sports!", "Football is exciting!", "Basketball is fun to follow.", "I'm more of a spectator."]
+        },
+        {
+            "tag": "news",
+            "patterns": ["What's the news?", "Any updates?", "Tell me the latest news", "News today"],
+            "responses": ["Here's the latest news: ...", "Today's top story: ...", "In today's news: ..."]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["Recommend a movie", "What's a good movie?", "Any movie suggestions?", "What should I watch?"],
+            "responses": ["How about watching Inception?", "You should check out The Matrix.", "I recommend watching Interstellar.", "Try watching The Shawshank Redemption."]
+        },
+        {
+            "tag": "music",
+            "patterns": ["Recommend a song", "What's a good song?", "Any music suggestions?", "What should I listen to?"],
+            "responses": ["How about some classic rock?", "Try listening to Bohemian Rhapsody.", "How about something from The Beatles?", "You should listen to some jazz."]
+        },
+        {
+            "tag": "books",
+            "patterns": ["Recommend a book", "What's a good book?", "Any book suggestions?", "What should I read?"],
+            "responses": ["How about reading 'To Kill a Mockingbird'?", "You should check out '1984' by George Orwell.", "I recommend 'The Great Gatsby.'", "Try 'Pride and Prejudice' by Jane Austen."]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["Can you code?", "Help me with programming", "What's the best programming language?", "How to start coding?"],
+            "responses": ["I can help with coding!", "Python is great for beginners.", "Start with learning the basics of programming.", "There are many online resources to help you start coding."]
+        },
+        {
+            "tag": "pets",
+            "patterns": ["Do you like pets?", "What's your favorite animal?", "Do you have pets?", "Any pet care tips?"],
+            "responses": ["I think dogs are awesome!", "Cats are fascinating creatures.", "Pets bring a lot of joy!", "Make sure to take good care of your pets."]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Recommend a travel destination", "Where should I go on vacation?", "Any travel tips?", "What's a good place to visit?"],
+            "responses": ["How about visiting Paris?", "You should check out Tokyo!", "Try visiting the beaches of Bali.", "I recommend a trip to New York City."]
+        },
+        {
+            "tag": "exercise",
+            "patterns": ["Any exercise tips?", "What's a good workout?", "How to stay fit?", "Exercise suggestions?"],
+            "responses": ["Try some yoga!", "Running is a great way to stay fit.", "You can do a quick home workout.", "Stay active and healthy!"]
+        },
+        {
+            "tag": "education",
+            "patterns": ["What's the best way to study?", "Help me with my homework", "Study tips?", "How to stay focused?"],
+            "responses": ["Try making a study schedule.", "Focus on one topic at a time.", "Take regular breaks to stay fresh.", "Stay organized and motivated!"]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["Motivate me", "I need inspiration", "How to stay motivated?", "Any motivational quotes?"],
+            "responses": ["Believe in yourself!", "You can achieve anything with determination.", "Keep pushing forward!", "Stay positive and keep going!"]
+        },
+        {
+            "tag": "career",
+            "patterns": ["Career advice?", "What job should I get?", "Help me with my resume", "How to find a job?"],
+            "responses": ["Follow your passion!", "Focus on building your skills.", "Networking is key to finding opportunities.", "Keep improving your resume."]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["Tell me about technology", "What's the latest in tech?", "Tech news?", "Any tech recommendations?"],
+            "responses": ["The world of AI is fascinating!", "Technology is constantly evolving.", "Check out the latest gadgets!", "Tech can make life easier and more fun."]
+        },
+        {
+            "tag": "health",
+            "patterns": ["Health tips?", "How to stay healthy?", "Any diet advice?", "How to improve my well-being?"],
+            "responses": ["Eat a balanced diet.", "Exercise regularly.", "Get enough sleep.", "Stay hydrated!"]
+        }
+    ]
+ }    
